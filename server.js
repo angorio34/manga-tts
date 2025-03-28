@@ -29,3 +29,4 @@ exec("tesseract page.jpg output", async (error) => {
 } catch (err) { res.status(500).json({ error: err.message }); } });
 
 app.listen(3001, () => console.log("Сервер запущен на порту 3001"));
+Добавлен сервер
